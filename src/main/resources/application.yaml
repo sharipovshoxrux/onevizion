@@ -18,7 +18,7 @@ spring:
 
 logging:
   level:
-    org:
-      flywaydb: info
-      springframework:
-        jdbc: debug
+    root: info
+    org.springframework.web: debug
+    org.hibernate: debug
+    org.onevizion.booksample: debug
